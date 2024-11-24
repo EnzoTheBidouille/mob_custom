@@ -1,0 +1,9 @@
+name: MobCustom
+version: '1.0-SNAPSHOT'
+main: com.thebidouille_mob_custom.CustomMobLoader
+api-version: '1.21'
+commands:
+  spawncompanion:
+    description: Fait apparaître un compagnon personnalisé
+    usage: /spawncompanion <mobId>
+    permission: custommob.spawn
